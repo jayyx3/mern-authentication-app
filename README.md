@@ -1,4 +1,4 @@
-# 🔐 MERN Authentication & Notes Application
+# 🔐 MERN Authentication Application
 
 [![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)](https://www.mongodb.com/)
 [![Express.js](https://img.shields.io/badge/Express.js-404D59?style=for-the-badge)](https://expressjs.com/)
@@ -299,13 +299,13 @@ http://localhost:8000
 
 | Method | Endpoint | Description | Auth Required |
 |--------|----------|-------------|---------------|
-| POST | `/user/register` | Register new user | ❌ |
-| POST | `/user/verify` | Verify email | ❌ |
-| POST | `/user/login` | Login user | ❌ |
+| POST | `/user/register` | Register new user | ✅ |
+| POST | `/user/verify` | Verify email | ✅ |
+| POST | `/user/login` | Login user | ✅ |
 | POST | `/user/logout` | Logout user | ✅ |
-| POST | `/user/forgot-password` | Request password reset | ❌ |
-| POST | `/user/verify-otp/:email` | Verify OTP code | ❌ |
-| POST | `/user/change-password/:email` | Change password | ❌ |
+| POST | `/user/forgot-password` | Request password reset | ✅ |
+| POST | `/user/verify-otp/:email` | Verify OTP code | ✅ |
+| POST | `/user/change-password/:email` | Change password | ✅ |
 
 ### Request/Response Examples
 
@@ -521,9 +521,9 @@ Give a ⭐️ if this project helped you!
 
 ### 💻 Made with ❤️ by **JAY JOSHI**
 
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jayjoshi)
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://linkedin.com/in/jayjoshi)
-[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://jayjoshi.dev)
+[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/jayyx3)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jay-joshi-75b75124b/)
+[![Portfolio](https://img.shields.io/badge/Portfolio-FF5722?style=for-the-badge&logo=todoist&logoColor=white)](https://my-portfolio-jay-joshis-projects.vercel.app/)
 
 **© 2025 JAY JOSHI. All Rights Reserved.**
 
