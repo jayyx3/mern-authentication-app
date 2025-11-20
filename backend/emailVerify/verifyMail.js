@@ -33,13 +33,12 @@ export const verifyMail = async (token, email) => {
         html: htmlToSend,
     }
 
-    transporter.sendMail(mailConfigurations, function (error, info) {
-        if (error) {
-            throw new Error(error)
-        }
+    try {
+        const info = await transporter.sendMail(mailConfigurations)
         console.log('Email sent successfully');
         console.log(info);
-
-
-    })
+    } catch (error) {
+        throw new Error(error)
+    }
+    
 }
