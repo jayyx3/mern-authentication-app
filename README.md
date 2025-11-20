@@ -11,6 +11,7 @@ A full-stack MERN (MongoDB, Express.js, React, Node.js) application featuring se
 
 ## 📋 Table of Contents
 
+
 - [Features](#-features)
 - [Demo](#-demo)
 - [Tech Stack](#-tech-stack)
