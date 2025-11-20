@@ -10,9 +10,22 @@ const PORT = process.env.PORT || 3000
 
 app.use(express.json())
 app.use(cors({
-    origin:'http://localhost:5173',
+    origin: process.env.CLIENT_URL || 'http://localhost:5173',
     credentials:true
 }))
+
+// Root route for health check
+app.get('/', (req, res) => {
+    res.status(200).json({
+        success: true,
+        message: 'MERN Authentication API is running!',
+        version: '1.0.0',
+        endpoints: {
+            user: '/user',
+            health: '/'
+        }
+    })
+})
 
 app.use('/user', userRoute)
 
