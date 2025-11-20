@@ -10,7 +10,7 @@ const PORT = process.env.PORT || 3000
 
 app.use(express.json())
 app.use(cors({
-    origin:'https://authentication-app-mern.vercel.app/',
+    origin:'https://authenticationprojectmern.vercel.app/',
     credentials:true
 }))
 
