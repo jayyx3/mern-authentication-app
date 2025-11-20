@@ -527,6 +527,6 @@ Give a ⭐️ if this project helped you!
 
 **© 2025 JAY JOSHI. All Rights Reserved.**
 
-*If you found this project useful, please consider giving it a star ⭐*
+*If you found this project useful, please consider giving it a star ⭐.*
 
 </div>
